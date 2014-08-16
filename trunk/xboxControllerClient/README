@@ -1,0 +1,25 @@
+[[xboxControllerClient]]
+========================
+
+This is an example implementation for integrating a xbox controller into a C program.
+The code reads the controller values and stores them in the xboxCtrl struct.
+
+The whole configuration for the controller is in the header file xboxController.h
+Please look at the code to see how it works, it is really easy.
+
+The latest Version can be found at:
+https://code.google.com/p/scholtyssek-blogspot/
+
+Questions, comments and bug reports can be send to:
+
+ * Marco Scholtyssek <code@scholtyssek.org>
+ 
+The whole project description can be found in the blog.
+English blog: 	http://scholtyssek.blogspot.de/	
+German blog: 	http://scholtyssek-de.blogspot.de/
+ 
+[[Compiling]]
+=============
+
+You can use eclipse CDT, but if you would like to call the gcc directly:
+	gcc -o xboxControllerClient -O0 -g3 -Wall -std=c99 xboxController.c xboxController.h main.c 
