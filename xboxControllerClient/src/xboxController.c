@@ -130,8 +130,8 @@ void printXboxCtrlValues(xboxCtrl* xbox) {
 	/* print button values */
 	printf("  back:%d  xbox:%d  start:%d  A:%d  B:%d  X:%d  Y:%d  TL:%d  TR:%d  STK_L:%d  STK_R:%d",
 				xbox->btn_back,
-				xbox->btn_start,
 				xbox->btn_xbox,
+				xbox->btn_start,
 				xbox->btn_A,
 				xbox->btn_B,
 				xbox->btn_X,
