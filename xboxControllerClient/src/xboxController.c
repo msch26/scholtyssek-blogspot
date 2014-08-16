@@ -39,8 +39,6 @@ void readXboxControllerInformation(xboxCtrl* xbox){
 	ioctl(fd, JSIOCGBUTTONS, xbox->numOfButtons);
 	ioctl(fd, JSIOCGNAME(IDENTIFIER_SIZE), xbox->identifier);
 
-//	JSIOCSCORR
-
 	if (xbox->numOfButtons > 1000 || xbox->numOfButtons < -1000 ) {
 		/*
 		 * this happens, if the process is started more the one time.
@@ -143,6 +141,6 @@ void printXboxCtrlValues(xboxCtrl* xbox) {
 				xbox->btn_leftStk,
 				xbox->btn_rightStk
 				);
-	printf("\r");
+	printf("\n");
 	fflush(stdout);
 }

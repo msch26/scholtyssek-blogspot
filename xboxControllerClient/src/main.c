@@ -8,6 +8,7 @@
 #include "xboxController.h"
 
 int main(int argc, char **argv) {
+
 	if (initXboxContoller(XBOX_DEVICE) >= 0) {
 		xboxCtrl* xbox = getXboxDataStruct();
 		readXboxControllerInformation(xbox);
