@@ -1,0 +1,20 @@
+[[SRF02_example]]
+========================
+
+This is an STM32F4 example implementation for the SFR02 ultrasonic sensor. 
+
+The latest Version of the code can be found at:
+https://code.google.com/p/scholtyssek-blogspot/
+
+Questions, comments and bug reports can be send to:
+
+ * Marco Scholtyssek <code@scholtyssek.org>
+ 
+The whole project description can be found in the blog.
+English blog: 	http://scholtyssek.blogspot.de/	
+German blog: 	http://scholtyssek-de.blogspot.de/
+ 
+[[Compiling]]
+=============
+
+To compile this example, you should install the Cortex Microcontroller Software Interface Standard (CMSIS) lib and the arm-none-eabi-gcc compiler.
