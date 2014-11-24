@@ -14,7 +14,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 #define LIGHTSENSOR_I2C I2C1
 #define LIGHTSENSOR_AF GPIO_AF_I2C1
-#define LIGHTSENSOR_I2C_CLKSPEED 400000 // 40KHz
+#define LIGHTSENSOR_I2C_CLKSPEED 400000 // 400 kHz
 #define LIGHTSENSOR_RCC_I2C_CLOCK RCC_APB1Periph_I2C1
 
 #define LIGHTSENSOR_RCC_PORT_CLOCK RCC_AHB1Periph_GPIOB
