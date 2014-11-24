@@ -1,0 +1,19 @@
+[[TSL2561 light sensor I2C example]]
+========================
+
+This is an example implementation for the usage of an TSL2561 light sensor 
+with a STM32F4 controller via I2C bus.
+
+The configuration for the device is encapsulated in the Configuration.h header file.
+Please look at the code to see how it works, it is really easy.
+
+The latest Version can be found at:
+https://code.google.com/p/scholtyssek-blogspot/
+
+Questions, comments and bug reports can be send to:
+
+ * Marco Scholtyssek <code@scholtyssek.org>
+ 
+The whole project description can be found in the blog.
+English blog: 	http://scholtyssek.blogspot.de/	
+German blog: 	http://scholtyssek-de.blogspot.de/
